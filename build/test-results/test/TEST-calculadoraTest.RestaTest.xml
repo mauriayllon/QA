@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculadoraTest.RestaTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-02-22T11:26:35" hostname="Mauris-MacBook-Pro.local" time="0.011">
+  <properties/>
+  <testcase name="restarImparesPares" classname="calculadoraTest.RestaTest" time="0.0"/>
+  <testcase name="restarImpares" classname="calculadoraTest.RestaTest" time="0.0"/>
+  <testcase name="restarPares" classname="calculadoraTest.RestaTest" time="0.0"/>
+  <testcase name="restarImparesPares" classname="calculadoraTest.RestaTest" time="0.0"/>
+  <testcase name="restarImpares" classname="calculadoraTest.RestaTest" time="0.0"/>
+  <testcase name="restarPares" classname="calculadoraTest.RestaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

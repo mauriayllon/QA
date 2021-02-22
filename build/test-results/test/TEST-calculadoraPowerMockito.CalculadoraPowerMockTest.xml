@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculadoraPowerMockito.CalculadoraPowerMockTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-22T11:26:38" hostname="Mauris-MacBook-Pro.local" time="0.547">
+  <properties/>
+  <testcase name="verify_calculadora_power_mock" classname="calculadoraPowerMockito.CalculadoraPowerMockTest" time="0.547"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

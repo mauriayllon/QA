@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculadoraParameters.TestSumaParameter" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-02-22T11:26:33" hostname="Mauris-MacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="verify_suma_all_values[0]" classname="calculadoraParameters.TestSumaParameter" time="0.001"/>
+  <testcase name="verify_suma_all_values[1]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <testcase name="verify_suma_all_values[2]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <testcase name="verify_suma_all_values[3]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <testcase name="verify_suma_all_values[4]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <testcase name="verify_suma_all_values[5]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <testcase name="verify_suma_all_values[6]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <testcase name="verify_suma_all_values[7]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <testcase name="verify_suma_all_values[8]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <testcase name="verify_suma_all_values[9]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <testcase name="verify_suma_all_values[10]" classname="calculadoraParameters.TestSumaParameter" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

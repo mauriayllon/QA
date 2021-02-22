@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculadoraTest.SumaTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-02-22T11:26:35" hostname="Mauris-MacBook-Pro.local" time="0.01">
+  <properties/>
+  <testcase name="sumarPares" classname="calculadoraTest.SumaTest" time="0.0"/>
+  <testcase name="sumarImpares" classname="calculadoraTest.SumaTest" time="0.0"/>
+  <testcase name="sumarImparesPares" classname="calculadoraTest.SumaTest" time="0.0"/>
+  <testcase name="sumarPares" classname="calculadoraTest.SumaTest" time="0.0"/>
+  <testcase name="sumarImpares" classname="calculadoraTest.SumaTest" time="0.0"/>
+  <testcase name="sumarImparesPares" classname="calculadoraTest.SumaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

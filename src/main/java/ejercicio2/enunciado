@@ -1,0 +1,179 @@
+ENUNCIADO:
+
+Se tiene un metodo para calcular la hora y fecha siguiente, dado que tenemos como 6 parametro
+
+DAY, MONTH, YEAR (no acepta negative year), HOUR, MINUTE, SECOND
+
+por ejemplo si yo le envio
+
+25 Febrero 2020  23 55 59 ------>  25 Febrero 2020 23:56:00
+
+- Invalid Day : <0 || >32
+- Invalid Month : !==Enero || !==Febrero || !==Marzo || !==Abril || !==Mayo || !==Junio || !==Julio || !==Agosto || !==Septiembre || !==Octubre|| !==Noviembre || !==Diciembre
+- Invalid Year : >2021 || <0
+- Invalid Hour : <0 || >23
+- Invalid Minute : <0 || >59
+- Invalid Second : <0 || >59
+
+
+NOTA: No usar la clase Date de java para realizar el proceso.
+
+COVERTURA DE PRUEBAS:
+Boundary Test: Testeo de Limites
+
+Años
+   | -------------- | ----------------|
+-1 0 1       1009 1010 1011       Not limit (año bisiesto %4==0)
+
+Dias
+   | -------------- | ----------------|  (0-28|29|30|31)
+-1 0 1           14 15 16          29 30 31
+
+Horas
+   | -------------- | ----------------| (0-23)
+-1 0 1           11 12 13          22 23 24
+
+Minutos
+   | -------------- | ----------------| (0-59)
+-1 0 1           29 30 31          58 59 60
+
+Segundos
+   | -------------- | ----------------| (0-59)
+-1 0 1           29 30 31          58 59 60
+
+Entrada:
+Años:
+Test 1 ---- 1 (positive test)
+Test 2 ---- 2021 (positive test)
+Test 3 ---- 2022 (negative test)
+Test 4 ---- 2020 (positive test)
+Test 5 ---- 1 (positive test)
+Test 6 ----  -1 (negative test)
+Test 7 ---- 1009 (positive test)
+Test 8 ---- 1010 (positive test)
+Test 9 ---- 1011 (positive test)
+
+Dias(depende del mes e incluso del año (29 febrero)):
+Test 1 ---- 1 (positive test)
+Test 2 ---- 31 (positive test) (depende del mes)
+Test 3 ---- 32 (negative test)
+Test 4 ---- 30 (positive test) (depende del mes)
+Test 5 ---- 1 (positive test)
+Test 6 ----  -1 (negative test)
+Test 7 ---- 14 (positive test)
+Test 8 ---- 15 (positive test)
+Test 9 ---- 16 (positive test)
+Test 10 --- 29 (si e año es bisiesto) (positive test)
+
+Horas:
+Test 1 ---- 0 (positive test)
+Test 2 ---- 23 (positive test)
+Test 3 ---- 24 (negative test)
+Test 4 ---- 22 (positive test)
+Test 5 ---- 1 (positive test)
+Test 6 ----  -1 (negative test)
+Test 7 ---- 11 (positive test)
+Test 8 ---- 12 (positive test)
+Test 9 ---- 13 (positive test)
+
+Minutos:
+Test 1 ---- 0 (positive test)
+Test 2 ---- 59 (positive test)
+Test 3 ---- 60 (negative test)
+Test 4 ---- 58 (positive test)
+Test 5 ---- 1 (positive test)
+Test 6 ----  -1 (negative test)
+Test 7 ---- 31 (positive test)
+Test 8 ---- 30 (positive test)
+Test 9 ---- 32 (positive test)
+
+Segundos:
+Test 1 ---- 0 (positive test)
+Test 2 ---- 59 (positive test)
+Test 3 ---- 60 (negative test)
+Test 4 ---- 58 (positive test)
+Test 5 ---- 1 (positive test)
+Test 6 ----  -1 (negative test)
+Test 7 ---- 31 (positive test)
+Test 8 ---- 30 (positive test)
+Test 9 ---- 32 (positive test)
+
+Pruebas:
+1 Enero 2020  23 59 59
+1 Febrero 2020  23 59 59
+1 Marzo 2020  23 59 59
+1 Abril 2020  23 59 59
+1 Mayo 2020  23 59 59
+1 Junio 2020  23 59 59
+1 Julio 2020  23 59 59
+1 Agosto 2020  23 59 59
+1 Septiembre 2020  23 59 59
+1 Octubre 2020  23 59 59
+1 Noviembre 2020  23 59 59
+1 Diciembre 2020  23 59 59
+31 Enero 2020  23 59 59
+28 Febrero 2021  23 59 59
+29 Febrero 2020  23 59 59 ---- bisiesto
+31 Marzo 2020  23 59 59
+30 Abril 2020  23 59 59
+31 Mayo 2020  23 59 59
+30 Junio 2020  23 59 59
+31 Julio 2020  23 59 59
+31 Agosto 2020  23 59 59
+30 Septiembre 2020  23 59 59
+31 Octubre 2020  23 59 59
+30 Noviembre 2020  23 59 59
+31 Diciembre 2020  23 59 59
+
+20 Febrero -1 23 59 59 - Invalid Year
+31 Febrero 2020  23 59 59 - Invalid Day
+31 Diciembres 2020  23 59 59 - Invalid Month
+
+31 Diciembre 2020  -1 59 59  ---- Invalid Hour
+31 Diciembre 2020  00 59 59
+31 Diciembre 2020  01 59 59
+31 Diciembre 2020  11 59 59
+31 Diciembre 2020  12 59 59
+31 Diciembre 2020  13 59 59
+31 Diciembre 2020  22 59 59
+31 Diciembre 2020  23 59 59
+31 Diciembre 2020  24 59 59 ---- Invalid Hour
+
+31 Diciembre 2020  01 -1 59 ---- Invalid Minute
+31 Diciembre 2020  01 00 59
+31 Diciembre 2020  01 1 59
+31 Diciembre 2020  01 29 59
+31 Diciembre 2020  01 30 59
+31 Diciembre 2020  01 31 59
+31 Diciembre 2020  01 58 59
+31 Diciembre 2020  01 59 59
+31 Diciembre 2020  01 60 59 ---- Invalid Minute
+
+31 Diciembre 2020  01 01 -1 ---- Invalid Second
+31 Diciembre 2020  01 01 00
+31 Diciembre 2020  01 01 01
+31 Diciembre 2020  01 01 29
+31 Diciembre 2020  01 01 30
+31 Diciembre 2020  01 01 31
+31 Diciembre 2020  01 01 58
+31 Diciembre 2020  01 01 59
+31 Diciembre 2020  01 01 60 ---- Invalid Second
+
+**39 Dragon -1000  25:69:80  ----> Invalid Day
+
+Return:
+
+29 Febrero 2020 23 59 59 ---> 1 Marzo 2020 00:00:00
+31 Diciembre 2020 23 59 59 ---> 1 Enero 2021 00:00:00
+30 Diciembre 2019 23 59 59 ---> 31 Diciembre 2019 00:00:00
+28 Marzo 2019 22 58 58 ---> 28 Marzo 2019 22:58:59
+29 Febrero 2019 23 23 58 ---> *** Ingrese los datos correctamente ***
+14 Marzo 2020 23 59 69 ---> *** Ingrese los datos correctamente ***
+14 Septiembre 2020 23 79 19 ---> *** Ingrese los datos correctamente ***
+15 Agggosoto 2020 23 19 09 ---> *** Ingrese los datos correctamente ***
+-1 Julio 2020 23 19 09 ---> *** Ingrese los datos correctamente ***
+
+NOTA:  Para dia Lunes 22 Febrero
+ejecutar los comandos :
+                         gradle clean   -----> limpia el compilado
+                         gradle test  ----> ejecuta las pruebas

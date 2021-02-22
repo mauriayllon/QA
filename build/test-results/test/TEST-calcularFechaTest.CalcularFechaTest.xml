@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calcularFechaTest.CalcularFechaTest" tests="55" skipped="0" failures="0" errors="0" timestamp="2021-02-22T11:26:38" hostname="Mauris-MacBook-Pro.local" time="0.01">
+  <properties/>
+  <testcase name="verify_suma_all_values[0]" classname="calcularFechaTest.CalcularFechaTest" time="0.001"/>
+  <testcase name="verify_suma_all_values[1]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[2]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[3]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[4]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[5]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[6]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[7]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[8]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[9]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[10]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[11]" classname="calcularFechaTest.CalcularFechaTest" time="0.001"/>
+  <testcase name="verify_suma_all_values[12]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[13]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[14]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[15]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[16]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[17]" classname="calcularFechaTest.CalcularFechaTest" time="0.001"/>
+  <testcase name="verify_suma_all_values[18]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[19]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[20]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[21]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[22]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[23]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[24]" classname="calcularFechaTest.CalcularFechaTest" time="0.001"/>
+  <testcase name="verify_suma_all_values[25]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[26]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[27]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[28]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[29]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[30]" classname="calcularFechaTest.CalcularFechaTest" time="0.001"/>
+  <testcase name="verify_suma_all_values[31]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[32]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[33]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[34]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[35]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[36]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[37]" classname="calcularFechaTest.CalcularFechaTest" time="0.001"/>
+  <testcase name="verify_suma_all_values[38]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[39]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[40]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[41]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[42]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[43]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[44]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[45]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[46]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[47]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[48]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[49]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[50]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[51]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[52]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[53]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <testcase name="verify_suma_all_values[54]" classname="calcularFechaTest.CalcularFechaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

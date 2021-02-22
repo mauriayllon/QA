@@ -1,0 +1,16 @@
+calculadoraMock/BasicCalculadoraService.java
+ calculadoraMock.BasicCalculadoraService
+ejercicio2/CalcularFecha.java
+ ejercicio2.CalcularFecha
+calculadoraPowerMockito/CalculadoraPowerMock.java
+ calculadoraPowerMockito.CalculadoraPowerMock
+calculadoraMock/CalculadoraMock.java
+ calculadoraMock.CalculadoraMock
+calculadoraPowerMockito/HelperCalculadoraService.java
+ calculadoraPowerMockito.HelperCalculadoraService
+ejercicio1/CalcularNota.java
+ ejercicio1.CalcularNota
+calculadora/Calculadora.java
+ calculadora.Calculadora
+badPractices/Calculadora.java
+ badPractices.Calculadora

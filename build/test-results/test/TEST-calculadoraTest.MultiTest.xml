@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculadoraTest.MultiTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-02-22T11:26:33" hostname="Mauris-MacBook-Pro.local" time="4.054">
+  <properties/>
+  <testcase name="multiTime" classname="calculadoraTest.MultiTest" time="0.506"/>
+  <testcase name="multiImpares" classname="calculadoraTest.MultiTest" time="0.505"/>
+  <testcase name="multiImparesPares" classname="calculadoraTest.MultiTest" time="0.505"/>
+  <testcase name="multiPares" classname="calculadoraTest.MultiTest" time="0.504"/>
+  <testcase name="multiTime" classname="calculadoraTest.MultiTest" time="0.505"/>
+  <testcase name="multiImpares" classname="calculadoraTest.MultiTest" time="0.504"/>
+  <testcase name="multiImparesPares" classname="calculadoraTest.MultiTest" time="0.504"/>
+  <testcase name="multiPares" classname="calculadoraTest.MultiTest" time="0.504"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
