@@ -1,33 +1,43 @@
 package ejercicio4Test;
 
-import ejercicio4.BDUtil;
+
+import ejercicio4.BDUtil2;
 import ejercicio4.Cajero;
-import ejercicio4.ClientDB;
+import ejercicio4.Cajero2;
+import ejercicio4.ClientDB2;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.mockito.Mockito;
+import org.powermock.api.mockito.PowerMockito;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import org.powermock.modules.junit4.PowerMockRunnerDelegate;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@RunWith(value= Parameterized.class)
-public class CajeroTest {
+//Paso 1 para metodos estaticos
+@RunWith(PowerMockRunner.class)
+//Paso 2 para metodos estaticos
+@PowerMockRunnerDelegate(Parameterized.class)
 
-    private int ci;
-    private int amount;
-    private boolean expectedMockClient;
-    private boolean expectedMockDB;
-    private String expectedResult;
+@PrepareForTest({ClientDB2.class, BDUtil2.class})
 
-    public CajeroTest(int ci, int amount, String expectedResult, boolean expectedMockClient, boolean expectedMockDB){
-        this.ci=ci;
-        this.amount = amount;
-        this.expectedResult = expectedResult;
-        this.expectedMockClient = expectedMockClient;
-        this.expectedMockDB =expectedMockDB;
-    }
+public class CajeroTest2 {
+
+    @Parameterized.Parameter(0)
+    public int ci;
+    @Parameterized.Parameter(1)
+    public int amount;
+    @Parameterized.Parameter(2)
+    public String expectedResult;
+    @Parameterized.Parameter(3)
+    public boolean expectedMockClient;
+    @Parameterized.Parameter(4)
+    public boolean expectedMockDB;
+
 
     @Parameterized.Parameters
     public static Iterable<Object[]> getData(){
@@ -51,18 +61,16 @@ public class CajeroTest {
         return objects;
     }
 
-    //PASO 2
-    BDUtil bdUtilMocked= Mockito.mock(BDUtil.class);
-    ClientDB clientDBMocked = Mockito.mock(ClientDB.class);
-
     @Test
-    public void verify_calculate_credit(){
-        // Paso 3
-        Mockito.when(clientDBMocked.isConnectionSuccessfully("mysql")).thenReturn(this.expectedMockClient);
-        Mockito.when(bdUtilMocked.updateSaldo(this.ci,10-this.amount)).thenReturn(this.expectedMockDB);
-        // Paso 4
-        Cajero cajero = new Cajero(10,bdUtilMocked,clientDBMocked);
-        String actualResult= cajero.getCash(this.ci,this.amount);
+    public void verify_calculate_amount(){
+        // PASO 3
+        PowerMockito.mockStatic(ClientDB2.class);
+        PowerMockito.mockStatic(BDUtil2.class);
+        // PASO 4
+        Mockito.when(ClientDB2.isConnectionSuccessfully("mysql")).thenReturn(this.expectedMockClient);
+        Mockito.when(BDUtil2.updateSaldo(this.ci,10-this.amount)).thenReturn(this.expectedMockDB);
+        Cajero2 cajero2 = new Cajero2(10);
+        String actualResult= cajero2.getCash(this.ci,this.amount);
         Assert.assertEquals("ERROR! ",this.expectedResult,actualResult);
     }
 
